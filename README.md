@@ -6,7 +6,7 @@ A portfolio model was developed in react.js, typescript and next.js, with other 
 ![Screenshot](./public/img/Sobre.png)
 
 <div style="align: center; display: flex; flex-direction: row">
-  <img src="./public/img/Experiencia.png" width="350" alt="Screenshot">
+  <img src="./public/img/Experiencia.png" width="350" title="Screenshot">
   <img src="./public/img/Portfolio.png" width="350" alt="Screenshot">
   <img src="./public/img/UltimosProjetos.png" width="350" alt="Screenshot">
   <img src="./public/img/Equipe.png" width="350" alt="Screenshot">
