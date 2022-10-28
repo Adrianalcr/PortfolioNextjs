@@ -30,6 +30,15 @@
           "choices": {}
         }
       }
+    },
+    "Novidades": {
+      "projetos": {
+        "type": "Group",
+        "config": {
+          "label": "Projetos",
+          "fields": {}
+        }
+      }
     }
   }
 }
