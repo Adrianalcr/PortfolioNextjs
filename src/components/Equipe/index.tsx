@@ -4,13 +4,10 @@ import TitulosSec from '../TitulosSec';
 
 import Image from 'next/image';
 import avatar from '../../assets/img/eu.png';
-import reactJS from '../../assets/img/reactJS.png';
-import typeJS from '../../assets/img/typeJS.png';
-import vercel from '../../assets/img/vercel.png';
-import vueJS from'../../assets/img/vueJS.png';
-import javaScript  from'../../assets/img/javaScript.png';
+
 
 function Equipe() {
+    
   return (
     <>
       <Container data-aos="fade-up">
