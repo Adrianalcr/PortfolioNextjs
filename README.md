@@ -3,11 +3,11 @@ A portfolio model was developed in react.js, typescript and next.js, with other 
 
 ### Screenshots
 
-![Screenshot](../imagens/screen2.png)!
+![Screenshot](../img/Sobre.png)!
 
 <a align="center">
-  <img src="/img/screen.png" width="350" title="Screenshot">
-  <img src="/img/screen2.png" width="350" alt="Screenshot">
+  <img src="../img/Experiencia.png" width="350" title="Screenshot">
+  <img src="../img/Portfolio.png" width="350" alt="Screenshot">
 </a>
 
 <!--INSTALLATION-->
@@ -44,8 +44,8 @@ Use and abuse!
 3- Presentation Profile; </br>
 4- Experiences; </br>
 5- Projects Carousel Images Slider;</br>
-6- Skills Carousel Images Slider; </br>
-7-</br>
+6- New Projects Images; </br>
+7- </br>
 8-</br>
 9- Contact Form;</br>
 10- Burger Menu;</br>

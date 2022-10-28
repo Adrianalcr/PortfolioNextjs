@@ -1,20 +1,15 @@
 {
-  "name": "Portifolio-Nextjs",
+  "name": "PortfolioNextjs",
   "author": "Adriana Lima",
   "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "slicemachine": "start-slicemachine"
+    "start": "next start"
   },
   "dependencies": {
     "@prismicio/client": "^5.1.0",
-    "@prismicio/helpers": "^2.3.5",
-    "@prismicio/next": "^0.1.7",
-    "@prismicio/react": "^2.5.0",
-    "@prismicio/types": "^0.2.3",
     "aos": "^2.3.4",
     "axios": "^1.1.3",
     "next": "^12.3.1",
