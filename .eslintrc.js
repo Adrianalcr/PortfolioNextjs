@@ -3,7 +3,6 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    next: true,
     jest: true
   },
   extends: [
@@ -11,7 +10,11 @@ module.exports = {
     'airbnb',
     'airbnb-typescript',
     'prettier',
-
+    "standard",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "prettier/standard",
+    "prettier/react"
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
