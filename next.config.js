@@ -1,5 +1,24 @@
-const withImages = require('next-images');
+module.exports = {
+  swcMinify: true,
+  images: {
+    unoptimized: true,
+  },
+  Image(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"],
+    });
 
-module.exports = withImages({
-  esModule: true
-});
+    return config;
+  },
+
+  compiler: {
+    relay: {
+      // This should match relay.config.js
+      src: './',
+      artifactDirectory: './__generated__',
+      language: 'typescript',
+    },
+  },
+
+}
