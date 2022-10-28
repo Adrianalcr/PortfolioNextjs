@@ -3,12 +3,17 @@ A portfolio model was developed in react.js, typescript and next.js, with other 
 
 ### Screenshots
 
-![Screenshot](../img/Sobre.png)!
+![Screenshot](./public/img/Sobre.png)
 
-<a align="center">
-  <img src="../img/Experiencia.png" width="350" title="Screenshot">
-  <img src="../img/Portfolio.png" width="350" alt="Screenshot">
-</a>
+<div style="align: center; display: flex; flex-direction: row">
+  <img src="./public/img/Experiencia.png" width="350" alt="Screenshot">
+  <img src="./public/img/Portfolio.png" width="350" alt="Screenshot">
+  <img src="./public/img/UltimosProjetos.png" width="350" alt="Screenshot">
+  <img src="./public/img/Equipe.png" width="350" alt="Screenshot">
+  <img src="./public/img/Skills1.png" width="350" alt="Screenshot">
+  <img src="./public/img/Skills2.png" width="350" alt="Screenshot">
+  <img src="./public/img/Contato.png" width="350" alt="Screenshot">
+</div>
 
 <!--INSTALLATION-->
 
