@@ -48,12 +48,10 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
 
           <meta charSet="utf-8" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />   
 
-          <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon"/>
-          <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon"/>
-          
         </Head>
+        
         <body>
           <Main />
           <NextScript />

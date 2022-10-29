@@ -8,11 +8,11 @@
       "uid": {
         "type": "UID",
         "config": {
-          "label": "Projetos",
+          "label": "Projeto",
           "placeholder": ""
         }
       },
-      "projeto1": {
+      "thumbnail": {
         "type": "Image",
         "config": {
           "label": "projeto1",

@@ -1,9 +1,7 @@
 //@refresh reset
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
-import * as prismicH from '@prismicio/helpers';
 
-import { components } from '../slices';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import Head from 'next/head';
@@ -44,6 +42,24 @@ export default function Home({ projeto }: HomeProps) {
 
   return (
     <HomeContainer>
+      <Head>
+        <title>Portfolio em ReactJS e NextJS</title>
+        <meta
+          name="description"
+          content="Sou uma desenvolvedora full stack e aqui apresento alguns projetos desenvolvidos por mim!"
+        />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta
+          property="og:description"
+          content="Sou uma desenvolvedora full stack e aqui apresento alguns projetos desenvolvidos por mim!"
+        />
+        <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon"/>
+      </Head>
+
       <Header/>
 
       <main className="container">

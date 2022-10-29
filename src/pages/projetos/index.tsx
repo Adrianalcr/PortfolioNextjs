@@ -36,7 +36,6 @@ export default function Projetos({ projetos }: ProjetoProps) {
           property="og:description"
           content="Exemplo de portfolio em React.js, Typescript e Next.js, integrado com vercel!"
         />
-        <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=projetonextjs"></script>
       </Head>
 
       <Header />

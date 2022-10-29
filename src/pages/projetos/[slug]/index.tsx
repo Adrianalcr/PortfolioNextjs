@@ -32,14 +32,13 @@ export default function Projeto({ projeto }: ProjetoProps) {
   return (
     <ProjetoContainer>
       <Head>
-        <title>{projeto.title} Portfolio em ReactJS e NextJS</title>
+        <title>{projeto.title}</title>
         <meta name="description" content={projeto.description} />
         <meta property="og:image" content={projeto.thumbnail} />
         <meta property="og:image:secure_url" content={projeto.thumbnail} />
         <meta name="twitter:image" content={projeto.thumbnail} />
         <meta name="twitter:image:src" content={projeto.thumbnail} />
         <meta property="og:description" content={projeto.description} />
-        <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=projetonextjs"></script>
       </Head>
 
       <Header />

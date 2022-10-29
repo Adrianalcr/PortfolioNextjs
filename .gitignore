@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/.slicemachine/
+/slices
+/customtypes
 
 # testing
 /coverage
@@ -11,11 +14,6 @@
 # next.js
 /.next/
 /out/
-
-# prismic
-/slices/
-/.slicemachine/
-sm.json
 
 # production
 /build
@@ -35,3 +33,6 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# vercel
+.vercel
