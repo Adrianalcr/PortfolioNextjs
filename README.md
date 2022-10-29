@@ -21,7 +21,7 @@ A portfolio model was developed in react.js, typescript and next.js, with other 
 [![Next.js](https://img.shields.io/badge/NextJs-blue)](https://nextjs.org/)
 [![React.js](https://img.shields.io/badge/-ReactJs-blue)](https://pt-br.reactjs.org/)
 [![Typescript](https://img.shields.io/badge/-Typescript-blue)](https://www.typescriptlang.org/)
-[![Prismic](https://prismic.io/badge/-Typescript-blue)](https://prismic.io/docs/)
+[![Prismic](https://prismic.io/badge/-blue)](https://prismic.io/docs/)
 
 <br/>
 
@@ -50,8 +50,8 @@ Use and abuse!
 4- Experiences; </br>
 5- Projects Carousel Images Slider;</br>
 6- New Projects Images; </br>
-7- </br>
-8-</br>
+7- Team Images Slider</br>
+8- Skills</br>
 9- Contact Form;</br>
 10- Burger Menu;</br>
 11- Fully responsive will support all the devices;</br>
@@ -65,6 +65,10 @@ npx create-next-app@latest --typescript
 yarn create next-app --typescript
 # or
 npm create next-app --typescript
+
+## Commands Slice Machine
+npx @slicemachine/init --repository portifolionextjs</br>
+npm run slicemachine
 
 # After the installation is complete:
 
