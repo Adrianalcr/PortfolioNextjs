@@ -1,6 +1,8 @@
 //@refresh reset
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
+import * as prismicH from '@prismicio/helpers';
+
 import { components } from '../slices';
 import { useEffect } from 'react';
 import Aos from 'aos';
