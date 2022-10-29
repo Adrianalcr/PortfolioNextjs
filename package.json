@@ -6,11 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "babel-version": "babel --version",
-    "test": "jest",
-    "start": "next start",
-    "slicemachine": "start-slicemachine",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
