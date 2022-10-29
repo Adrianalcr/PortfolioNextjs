@@ -8,7 +8,7 @@ const breakPoints = [
     { width: 550, itemsToShow: 2, itemsToScroll: 2 },
     { width: 768, itemsToShow: 3 },
     { width: 1200, itemsToShow: 4 },
-    { padding: 0, 10}
+    { ItemPadding: [0, 10]}
   ];
 
 function Projetos() {
